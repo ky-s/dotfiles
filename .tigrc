@@ -3,3 +3,4 @@ bind generic <Ctrl-f> scroll-page-down
 bind generic G move-last-line
 bind generic G none
 bind generic g move-first-line
+bind generic D !git difftool --tool=vimdiff --no-prompt --trust-exit-code %(commit)^!
